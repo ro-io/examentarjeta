@@ -1,0 +1,47 @@
+:root {
+  --green: hsla(145, 63%, 42%, 1);
+  background: hsla(0, 0%, 19%, 1);
+  --White: hsl(0, 0%, 100%);
+}
+
+body{
+    margin: 200px 20px 20px 20px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: "Montserrat";
+}
+
+.principal {
+    background: hsla(0, 0%, 19%, 1);
+    padding: 40px 20px;
+    border-radius: 15px 15px 15px 15px;
+    
+}
+
+.letters{
+    color: var(--White);
+    font-family: Montserrat;
+    font-size: 34px;
+    font-weight: 500;
+    line-height: 40px;
+    text-align: left;  
+
+}
+.superior{
+    color: var(--White);
+    font-family: Montserrat;
+}
+ 
+.inferior{
+    display: flex;
+    justify-content: space-between;
+    color: var(--White);
+    font-family: Montserrat;
+}
+.inferior h3{
+    color: var(--green)
+}
